@@ -1,19 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 
     <title>Employee Data Management</title>
-  </head>
-  <body>
+    <style>
+        .jumbotron {
+            background-color: black;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h1>Employee Data Management</h1>
+            <p>A Comprehensive Directory of Employee Billable Hours.</p>
+        </div>
+    </div>
+</main>
 
     <main class="container">
-
         <table class="table">
                 <thead class="thead-dark">
                         <tr>
@@ -22,61 +38,68 @@
                         <!-- Current Employee -->
                 </thead>
             <thead class="thead-dark">
+
                 <tr>
-                <th scope="col">Employee Name</th>
-                <th scope="col">Role</th>
-                <th scope="col">Start Date</th>
-                <th scope="col">Months Worked</th>
-                <th scope="col">Monthly Rate ($)</th>
-                <th scope="col">Total Billed ($)</th>
+
+                    <th scope="col">Employee Name</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Start Date</th>
+                    <th scope="col">Months Worked</th>
+                    <th scope="col">Monthly Rate ($)</th>
+                    <th scope="col">Total Billed ($)</th>
                 </tr>
             </thead>
 
-
             <tbody>
-
                 <tr>
-                <th scope="row">Ryan</th>
-                <td>Instructor</td>
-                <td>01/03/17</td>
-                <td>14</td>
-                <td>2</td>
-                <td>28</td>
+                    <th scope="row">Ryan</th>
+
+                    <td>Instructor</td>
+
+                    <td>01/03/17</td>
+
+                    <td>14</td>
+                    <td>2</td>
+                    <td>28</td>
                 </tr>
+
 
 
             </tbody>
         </table>
-                  
-    <form>
-        <div class="form-group">
-            <label for="employeeName">Employee Name</label>
-            <input type="employeeName" class="form-control" id="employeeName" aria-describedby="nameHelp" placeholder="Enter name">
-        </div>
+        <form>
+            <div class="form-group">
+                <label for="employeeName">Employee Name</label>
+                <input type="employeeName" class="form-control" id="employeeName" aria-describedby="nameHelp" placeholder="Enter name">
+            </div>
 
-        <div class="form-group">
-            <label for="employeeRole">Role</label>
-            <input type="employeeRole" class="form-control" id="employeeRole" placeholder="Your role">
-        </div>
+            <div class="form-group">
+                <label for="employeeRole">Role</label>
+                <input type="employeeRole" class="form-control" id="employeeRole" placeholder="Your role">
+            </div>
 
-        <div class="form-group">
-            <label for="startDate">Start Date - enter as MM/DD/YY (01/17/07)</label>
-            <input type="startDate" class="form-control" id="startDate" placeholder="Your start date">
-        </div>
+            <div class="form-group">
+                <label for="startDate">Start Date - enter as MM/DD/YY (01/17/07)</label>
+                <input type="startDate" class="form-control" id="startDate" placeholder="Your start date">
+            </div>
 
-        <div class="form-group">
-            <label for="monthlyRate">Monthly Rate ($)</label>
-            <input type="monthlyRate" class="form-control" id="monthlyRate" placeholder="Your monthly rate ($)">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+            <div class="form-group">
+                <label for="monthlyRate">Monthly Rate ($)</label>
+                <input type="monthlyRate" class="form-control" id="monthlyRate" placeholder="Your monthly rate ($)">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
 
-    </main> 
+    </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
